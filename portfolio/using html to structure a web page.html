@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<!--
+    Name: Ryan Fazal
+    Date Created: 02/04/2020
+-->
+<html lang="en">
+
+<head>
+    <title> Ryan Fazal's Portfolio </title>
+<!-- <link href="teststyles.css" rel="stylesheet" type="text/css" /> -->
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <style>
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 8px;
+        }
+
+        table, th, td {
+            border: 1px solid #0d1f2d;
+            border-collapse: collapse;
+            padding: 5px 10px;
+        }
+
+        table {
+            width: 90%;
+            margin: auto;
+        }
+
+        tr {
+            height: 30px;
+        }
+
+        th {
+            background-color: #546a7b;
+            color: #f2eded;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #e4c3ad;
+        }
+
+        /* Creating article layouts */
+
+
+        article img {
+            float:left;
+        }
+
+        .right-content {
+            float:left;
+        }
+
+        article {
+            margin-bottom: 16px;
+        }
+
+    </style>
+
+
+
+</head>
+
+<style>
+    header {
+        background-color: darkgray;
+    }
+
+</style>
+
+<body>
+
+    <header>
+        <h1>Portfolio for Ryan Fazal </h1>
+    </header>
+
+    <nav class="border"> <!-- The nav element will include navigation buttons or links -->
+
+        <p>
+        <a href="project.html">Projects</a>
+        <a href="contactme.html">Contact Me</a>
+        <a href="testimonials.html">Testimonials</a>
+        <div class="clear-float"></div>
+        </p>
+
+    </nav>
+
+    <section>
+
+        <article class="border" id="about-me">
+            <h2><em> About Me </em></h2>
+            <img src="images/jeffgordon.jpg" alt="Photo of Me" width="300px"; height= "200px";" style="float:left;" />
+             <p>
+                My name is Ryan Fazal. I am a graduate from John Jay College.
+            </p>
+            <div class="clear-float"></div>
+
+        </article>
+
+        <article id="experience">
+             <h2><em> Past Experience </em></h2>
+             <img src="images/cisco.png" alt="Photo of Experience" style="border: thin black solid; width: 100px; height: 100px;" />
+             <div class="right-content">
+             <table border="1">
+                <caption>Employment History</caption>
+                <thead>
+                    <tr>
+                        <th>Years of Employment</th>
+                        <th>Title</th>
+                        <th>Company</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>2015-2017</td>
+                        <td>Summer Intern</td>
+                        <td>MSKCC</td>
+                    </tr>
+
+                    <tr>
+                        <td>2014-2015</td>
+                        <td>Cisco Netriders Intern</td>
+                        <td>Board of Education</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="clear-float"></div>
+
+        <article>
+            <h2><em> Hobbies </em></h2>
+            <img src="images/nascar_talladega_geico_500.jpg" alt="Photo of Me" style="border: thin black solid; width: 100px; height: 100px;" />
+            <div class="right-content">
+            <p>
+                I am an <span style="background-color: lightblue; border: thin solid darkblue;">avid</span> racing fan.
+            </p>
+
+            <ul>
+                <li>Favorite Drivers</li>
+                <ol>
+                    <li> Jeff Gordon</li>
+                    <li> Chase Elliott</li>
+                    <li> Kyle Busch</li>
+                </ol>
+            </ul>
+            </div>
+        </article>
+        <div class="clear-float"></div>
+
+    </section>
+
+    <footer>
+        <hr />
+        <p>&copy; 2020 Ryan Fazal. All Rights reserved.</p>
+    </footer>
+
+    </body>
+
+</html>
