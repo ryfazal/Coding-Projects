@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hi I'm Carl</title>
+</head>
+<style>
+    body {
+        background-image:url("paper-1914901_100.png");
+        background-color: #cccccc;
+    }
+
+    a {
+        font-family: monospace;
+        text-decoration: underline;
+        font-weight: none;
+    }
+
+    a:link {
+        color: green;
+    }
+
+    a:visited {
+        color: red;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #00c;
+        font-family: cursive;
+    }
+
+    a:active {
+        font-weight: bold;
+    }
+
+</style>
+</head>
+<body>
+    <h1>Hello World!</h1>
+</body>
+
+<body>
+    <h1>Hello,World!</h1>
+    <p>This is my croissant</p>
+    <div id="ContentArea" style="color:red;"> This text is displayed in red. </div>
+    <hr />
+
+    <p><b> This is a bold statement.</b></p>
+
+    <p><i>Italic Text</i></p>
+
+    <p><ins> Insert Underline </ins></p>
+
+    <p><del> Cross out sentence </del></p>
+
+    <p><mark> Marked Text </mark></p>
+
+    <p><blockquote>This is set as a quote</blockquote></p>
+
+    <p><code>Programming Code Text</code></p>
+
+    <p> This is an example of a <sub> Subscript </sub></p>
+
+     <p> This is an example of a <sup> Superscript </sup></p>
+
+     <p>This is a paragraph. <strong>This sentence is bold with one word in <em>italics</em>.</strong></p>
+
+     <p>
+            In this paragraph, our <span style="background-color: yellow">span element</span> will
+            highlight the text it contains in yellow.
+    </p>
+
+    <p>
+        <a href="https://www.ryanfazal.com">Ryan Fazal</a>
+    </p>
+    <h1>Bookmark Links in HTML</h1>
+
+    <p>This is the question.</p>
+
+    <figure><img src="https://cdn.pixabay.com/photo/2018/06/24/20/32/ivy-3495403_1280.jpg" alt="" /></figure>
+
+    <p id="target">This is the target.</p>
+
+    <figure><img src="https://cdn.pixabay.com/photo/2018/06/18/06/43/nature-3481966_1280.jpg" alt="" /></figure>
+
+    <p>An HTML page is plain without rich content to make it look better. Let's add an image to help.</p>
+    <img src="https://cdn.pixabay.com/photo/2017/06/21/00/22/dog-2425528_960_720.jpg" style="border: thick purple solid; width: 600px; height: 300px;" />
+
+    <p>
+    <table border="1" >
+    <caption>Contact Information</caption>
+        <tr bgcolor="palegreen">
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone</th>
+        </tr>
+
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>555-1212</td>
+        </tr>
+
+        <tr>
+            <td>Sally</td>
+            <td>Smith</td>
+            <td>555-1123</td>
+        </tr>
+
+        <tr>
+            <td>Sam</td>
+            <td>Jones</td>
+            <td>555-4321</td>
+        </tr>
+    </table>
+    </p>
+
+    <form action="fakePage.html" method="POST">
+    Text Input: <input type="text" name="myTextInput" /><br />
+    Radio Buttons:<br />
+    <input type="radio" name="answer" value="YES" checked />Yes<br />
+    <input type="radio" name="answer" value="NO" />No<br />
+    <input type="radio" name="answer" value="MAYBE" />Maybe<br />
+    Password Input: <input type="password" name="userPassword" /><br />
+    <input type="checkbox" name="myChoices" value="Soup" checked/>Soup<br />
+    <input type="checkbox" name="myChoices" value="Salad" checked/>Salad<br />
+    <input type="checkbox" name="myChoices" value="Fries" checked/>Fries<br />
+    <input type="checkbox" name="myChoices" value="Dessert" checked/>Dessert<br />
+    <select name="phones">
+        <option value="iPhone6">Mac OS</option>
+        <option value="GalaxyS6">Windows</option>
+        <option value="Nexus5">Linux</option>
+    </select>
+    <input type="submit" /><input type="reset" /><br />
+    </form>
+
+    <!-- this is CSS ON HTML
+    <head>
+        <title>CSS Examples</title>
+        <style>
+            p {
+                color:darkviolet;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <p>This is a paragraph.</p>
+        <p>This is a second paragraph.</p>
+    </body>
+-->
+    <!-- CSS Element Selectors
+    <head>
+        <title>CSS Examples</title>
+        <style>
+
+            body {
+               color:darkviolet;
+
+            }
+            li {
+                border-bottom: 1px dashed black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <ul>
+            <li>Sam</li>
+            <li>John</li>
+            <li>Chris</li>
+        </ul>
+    </body>
+-->
+
+<!-- ID Selector -->
+    <head>
+        <title>CSS Examples</title>
+        <style>
+            #product2
+            {
+                border: 3px red dashed;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="product1">
+            <h2>Awesome Product</h2>
+            <p>Pasta ipsum dolor sit amet sagne 'ncannulate bucatini tuffoli bavette penne. Tuffoli pastina farfalline linguine campanelle garganelli lagane scialatelli pappardelle elicoidali ditalini. Quadrefiore orecchiette croxetti spiralini strozzapreti garganelli fettucelle. </p>
+        </div>
+        <div id="product2">
+            <h2>More Awesome Product</h2>
+            <p>Pasta ipsum dolor sit amet sagne 'ncannulate bucatini tuffoli bavette penne. Tuffoli pastina farfalline linguine campanelle garganelli lagane scialatelli pappardelle elicoidali ditalini. Quadrefiore orecchiette croxetti spiralini strozzapreti garganelli fettucelle. </p>
+        </div>
+        <div id="product3">
+            <h2>Most Awesome Product</h2>
+            <p>Pasta ipsum dolor sit amet sagne 'ncannulate bucatini tuffoli bavette penne. Tuffoli pastina farfalline linguine campanelle garganelli lagane scialatelli pappardelle elicoidali ditalini. Quadrefiore orecchiette croxetti spiralini strozzapreti garganelli fettucelle. </p>
+        </div>
+    </body>
+
+<!-- Class Selectors -->
+    <head>
+        <title>CSS Examples</title>
+        <style>
+            .warning {
+                display: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="warning">
+            <p>The following errors occurred:</p>
+        </div>
+        <p class="warning">First Name is required.</p>
+        <label for="firstName">First Name</label>
+        <input type="textbox" name="firstName"/>
+        <p class="warning">Last Name is required.</p>
+        <label for="lastName">Last Name</label>
+        <input type="textbox" name="lastName"/>
+    </body>
+
+    <p>
+    <style>
+    </style>
+    </head>
+    <body>
+        <div style="background-color: rgb(255,0,0);">Red using rgb</div>
+        <div style="background-color: rgba(255,0,0,0.5);">Red with 50% using rgba opacity</div>
+        <div style="background-color: rgb(178,31,40);">Dark red using rgb</div>
+        <div style="background-color: #ff0000;">Red using hexadecimal</div>
+        <div style="background-color: #f00;">Red using hexadecimal</div>
+        <div style="background-color: #b21f28;">Dark red using hexadecimal</div>
+    </body>
+    </p>
+
+    <p>
+    <body>
+        <div style="color:red;">
+        First Name is required
+        </div>
+    </body>
+    </p>
+
+    <!-- Alignment-->
+    <p>
+    <body>
+        <div style="text-align: justify;width: 200px;">
+        Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Morbi ultrices arcu eget
+        turpis consectetur faucibus. Vestibulum
+        faucibus magna lectus, ac aliquam nulla facilisis
+        sed. Morbi bibendum, arcu sed tristique fringilla,
+        magna mi efficitur magna, vitae gravida felis risus
+        nec arcu. Sed interdum, mauris at interdum interdum,
+        metus nunc rutrum nibh, quis tempus orci quam vitae
+        sem. Suspendisse nec ullamcorper neque.
+        </div>
+    </body>
+    </p>
+
+    <!-- Indentation-->
+    <p>
+    <body>
+        <div style="text-indent: 15%;width: 300px;">
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Morbi ultrices arcu eget
+            turpis consectetur faucibus. Vestibulum
+            faucibus magna lectus, ac aliquam nulla facilisis
+            sed. Morbi bibendum, arcu sed tristique fringilla,
+            magna mi efficitur magna, vitae gravida felis risus
+            nec arcu. Sed interdum, mauris at interdum interdum,
+            metus nunc rutrum nibh, quis tempus orci quam vitae
+            sem. Suspendisse nec ullamcorper neque.
+        </div>
+    </body>
+    </p>
+
+    <!--Capitalization-->
+    <body>
+        <p style="text-transform: uppercase;">
+            Now this is crazy!
+            <span style="text-transform: none; color: dodgerblue;">
+                Yay!
+            </span>
+            <span style="text-transform: capitalize;">
+                we love CSS!
+            </span>
+        </p>
+    </body>
+
+    <!-- Decoration-->
+    <body>
+        <p>
+          This is
+          <span style="text-decoration:underline;">
+            underlined.
+          </span>
+          This is
+          <span style="text-decoration:overline;">
+            overlined.
+          </span>
+          This is
+          <span style="text-decoration:line-through;">
+            line-through.
+          </span>
+        </p>
+    </body>
+
+<!-- Tables CSS with Borders/Padding/Width/Height/Alignment/Color-->
+    <p>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding-top: 5px;
+            padding-right: 0px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        th {
+            height: 25px;
+        }
+
+        tfoot td {
+            text-align: center;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: lemonchiffon;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: lawngreen;
+        }
+
+    </style>
+    <table>
+        <caption>Table Caption</caption>
+        <thead>
+            <tr>
+                <th>Heading 1</th>
+                <th>Heading 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Lorem</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>ipsum</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>dolor</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Lorem</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Table Footer Text</td>
+            </tr>
+        </tfoot>
+    </table>
+    </p>
+
+</body>
+</html>
